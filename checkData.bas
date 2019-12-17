@@ -5,7 +5,7 @@ Sub check_data()
 
 'this sub will update sheet SRC from DB and check for updated statuses from previous week
 
-Dim rowCount As Long
+Dim rowCount As Integer
 Dim i As Long
 Dim j As Long
 Dim k As Integer
