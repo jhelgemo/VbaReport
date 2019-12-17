@@ -6,21 +6,21 @@ Sub check_data()
 'this sub will update sheet SRC from DB and check for updated statuses from previous week
 
 Dim rowCount As Integer
-Dim i As Long
-Dim j As Long
+Dim i As Integer
+Dim j As Integer
 Dim k As Integer
 Dim vlookupRange As Range
 Dim vlookupcode As String
-Dim vlookupresult As Long
+Dim vlookupresult As Integer
 Dim url As String
-Dim productchangecount As Long
+Dim productchangecount As Integer
 Dim weeknumber As String
 Dim currentYear As String
 Dim currentdate As String
 Dim lastDateTocheck As String
-Dim discontinuedProducts As Long
-Dim newProducts As Long
-Dim newJProducts As Long
+Dim discontinuedProducts As Integer
+Dim newProducts As Integer
+Dim newJProducts As Integer
 
 ' get current date and convert to string
 currentdate = Format(Date, "yyyymmdd")
