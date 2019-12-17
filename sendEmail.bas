@@ -3,7 +3,7 @@ Option Explicit
 
 Sub send_email()
 
-'this sub will create and send a new outlook mail and add the artikkel-endringer workbook from the current week
+  'this sub will create and send a new outlook email and add the report workbook from the current week
 
 Dim olApp As Outlook.Application
 Dim olEmail As Outlook.MailItem
