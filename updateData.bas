@@ -26,8 +26,6 @@ Sheets("SRC").AutoFilter.ShowAllData
 With Worksheets("SRC").Range("a1:h1")
         .AutoFilter Field:=4, Criteria1:="10", Criteria2:="15", Operator:=xlOr
 
-
-
 End With
 
 
@@ -38,9 +36,6 @@ End With
     Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, skipblanks _
         :=False, Transpose:=False
         Application.CutCopyMode = False
-
-
-
 
 
 line2:
