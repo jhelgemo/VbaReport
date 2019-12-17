@@ -3,7 +3,7 @@ Option Explicit
 
 Sub send_email_no_updates()
 
-'this sub will create and send a new outlook mail if there are no updated SKUs
+  'this sub will create and send a new outlook email if there are no updated SKUs
 
 Dim olApp As Outlook.Application
 Dim olEmail As Outlook.MailItem
